@@ -1,0 +1,184 @@
+$primary: #ebebeb;
+$darkfont: #363636;
+$lightfont: #dfdfdf;
+
+$primaryfont: "Playfair Display", serif;
+$secondaryfont: "Nunito", sans-serif;
+
+body {
+  background: url(./landing.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: $primaryfont !important;
+  background-position-x: center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  h1 {
+    letter-spacing: 0.2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  a {
+    color: $darkfont;
+    text-decoration: none;
+  }
+  p {
+    font-family: $secondaryfont;
+  }
+  .MuiTypography-body1,
+  .MuiTypography-body2 {
+    font-family: $secondaryfont;
+  }
+  #header {
+    h1 {
+      font-family: $primaryfont;
+    }
+    .MuiButton-root {
+      font-family: $secondaryfont;
+      font-size: 1em;
+      font-weight: 500;
+    }
+    margin: 0;
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color:white;
+    .MuiSvgIcon-root {
+      padding: 1em;
+      width: 1.5em;
+      height: 1.5em;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      padding: 1.5em;
+      color: $darkfont;
+      li {
+        font-size: 1.3em;
+        margin: 0 2em;
+        color: $darkfont;
+      }
+    }
+  }
+
+  #contact {
+    margin:5em;
+    background-color: #ffffff;
+    padding: 3em;
+    display: flex;
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    p {
+      max-width: 75%;
+      margin-top: 0;
+    }
+    img {
+      max-width: 15em;
+      padding: 3em;
+      margin: 1em;
+    }
+    #contactInfo {
+      display: flex;
+      ul {
+        padding:0;
+        a {
+          color: rgb(170, 129, 125);
+          transition: ease-in-out 0.4s;
+          padding-left:6em;
+        }
+        a:hover {
+          color: rgb(124, 89, 86);
+        }
+      }
+    }
+  }
+  #catalog {
+    .cardStyle {
+      max-width: 15em;
+      margin: 1em;
+      padding: 1em;
+      .itemHead {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+
+        .MuiTypography-h5 {
+          font-family: $primaryfont;
+          font-size: 1.3em;
+          font-weight: 700;
+        }
+        .MuiTypography-body2 {
+          font-family: $secondaryfont !important;
+          font-size: 1.5em;
+          font-weight: 500;
+        }
+      }
+      .interestButton {
+        font-family: $primaryfont;
+        margin: auto;
+        background-color: rgba(207, 207, 207, 0.575);
+      }
+    }
+  }
+  #Nav {
+    background-color: white;
+  }
+  #Home {
+    #land {
+      color: $lightfont;
+      min-width: 50%;
+      padding: 7em;
+      background-color: #3636369c;
+      font-family: $secondaryfont;
+    }
+  }
+  #request {
+    display:flex;
+    flex-direction: row;
+    margin:auto;    
+    background-color:#ffffff;
+    padding:2em;
+    font-size:1.7em;
+    font-family:$secondaryfont;
+    div {
+      width:75%;
+    }
+    #requestSubmit {
+      font-family: $primaryfont;
+      margin: auto;
+      background-color: rgba(207, 207, 207, 0.575);
+    border:none;
+  padding:.5em;
+text-transform: uppercase;    }
+    form {
+      padding:1em;
+      font-family: $secondaryfont;
+    }
+  }
+    .MuiDialogContent-root {
+      img {
+        margin:auto;
+        border: 1px solid rgb(172, 172, 172);
+      }
+    }  
+}

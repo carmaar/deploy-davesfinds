@@ -1,0 +1,229 @@
+body {
+  background: url(./landing.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif !important;
+  background-position-x: center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+body ul,
+body li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body h1 {
+  letter-spacing: 0.2em;
+}
+
+body h2 {
+  font-size: 1em;
+}
+
+body a {
+  color: #363636;
+  text-decoration: none;
+}
+
+body p {
+  font-family: "Nunito", sans-serif;
+}
+
+body .MuiTypography-body1,
+body .MuiTypography-body2 {
+  font-family: "Nunito", sans-serif;
+}
+
+body #header {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+body #header h1 {
+  font-family: "Playfair Display", serif;
+}
+
+body #header .MuiButton-root {
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+body #header .MuiSvgIcon-root {
+  padding: 1em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+body #header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1.5em;
+  color: #363636;
+}
+
+body #header ul li {
+  font-size: 1.3em;
+  margin: 0 2em;
+  color: #363636;
+}
+
+body #contact {
+  margin: 5em;
+  background-color: #ffffff;
+  padding: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #contact h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+body #contact h3 {
+  font-size: 1.5em;
+}
+
+body #contact p {
+  max-width: 75%;
+  margin-top: 0;
+}
+
+body #contact img {
+  max-width: 15em;
+  padding: 3em;
+  margin: 1em;
+}
+
+body #contact #contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #contact #contactInfo ul {
+  padding: 0;
+}
+
+body #contact #contactInfo ul a {
+  color: #aa817d;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+  padding-left: 6em;
+}
+
+body #contact #contactInfo ul a:hover {
+  color: #7c5956;
+}
+
+body #catalog .cardStyle {
+  max-width: 15em;
+  margin: 1em;
+  padding: 1em;
+}
+
+body #catalog .cardStyle .itemHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+body #catalog .cardStyle .itemHead .MuiTypography-h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+body #catalog .cardStyle .itemHead .MuiTypography-body2 {
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+body #catalog .cardStyle .interestButton {
+  font-family: "Playfair Display", serif;
+  margin: auto;
+  background-color: rgba(207, 207, 207, 0.575);
+}
+
+body #Nav {
+  background-color: white;
+}
+
+body #Home #land {
+  color: #dfdfdf;
+  min-width: 50%;
+  padding: 7em;
+  background-color: #3636369c;
+  font-family: "Nunito", sans-serif;
+}
+
+body #request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 2em;
+  font-size: 1.7em;
+  font-family: "Nunito", sans-serif;
+}
+
+body #request div {
+  width: 75%;
+}
+
+body #request #requestSubmit {
+  font-family: "Playfair Display", serif;
+  margin: auto;
+  background-color: rgba(207, 207, 207, 0.575);
+  border: none;
+  padding: .5em;
+  text-transform: uppercase;
+}
+
+body #request form {
+  padding: 1em;
+  font-family: "Nunito", sans-serif;
+}
+
+body .MuiDialogContent-root img {
+  margin: auto;
+  border: 1px solid #acacac;
+}
+/*# sourceMappingURL=style.css.map */
