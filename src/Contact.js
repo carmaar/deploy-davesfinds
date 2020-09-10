@@ -6,7 +6,7 @@ import Container from "@material-ui/core/Container";
 import portrait from "./portrait.jpg";
 
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { render } from "@testing-library/react";
 
 function Contact() {

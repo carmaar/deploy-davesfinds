@@ -7,7 +7,7 @@ import Request from "./Request.js";
 import Nav from "./Nav.js";
 import Contact from "./Contact.js";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { render } from "@testing-library/react";
 
 function App() {

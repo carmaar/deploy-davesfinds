@@ -3,7 +3,7 @@ import "./style.css";
 // material-ui
 import Container from "@material-ui/core/Container";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { render } from "@testing-library/react";
 
 function Home() {
