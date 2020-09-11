@@ -25,7 +25,8 @@ function Catalog() {
   return (
     <Router>
       <Container id="catalog" maxWidth="lg">
-        <Grid
+        <title>Dave's Finds | Vintage Items and Collectables: Catalog</title> 
+          <Grid
           container
           spacing={2}
           direction="row"

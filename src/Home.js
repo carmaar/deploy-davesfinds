@@ -10,6 +10,8 @@ function Home() {
   return (
     <Router>
       <div id="Home">
+      <title>Dave's Finds | Vintage Items and Collectables</title> 
+
         <Container id="land" maxWidth="sm">
           <h1>Uniquely found.</h1>
           <h2>

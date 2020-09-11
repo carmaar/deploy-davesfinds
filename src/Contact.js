@@ -13,6 +13,7 @@ function Contact() {
   return (
     <Router>
       <Container id="contact">
+      <title>Dave's Finds | Vintage Items and Collectables: Contact</title> 
         <img src={portrait} alt="Dave" />
         <Container>
           <h2>Hi, I'm Dave.</h2>
